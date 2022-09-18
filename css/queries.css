@@ -102,6 +102,7 @@
   }
   .btn-mobile-nav {
     display: block;
+    z-index: 999999;
   }
   .navigation {
     position: relative;

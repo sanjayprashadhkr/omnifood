@@ -16,7 +16,12 @@
   /* transition: background-color 0.3s; */
   transition: all 0.3s;
 }
-
+.btn:focus {
+  outline: #cf711f;
+}
+.side-btn:focus {
+  outline: #cf711f;
+}
 .btn--full:hover,
 .btn--full:active {
   background-color: #cf711f !important;

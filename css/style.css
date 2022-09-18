@@ -1,6 +1,7 @@
 html {
   font-size: 10px;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -128,6 +129,25 @@ body {
 
 .side-btn.btn-price:hover {
   background-color: #cf711f;
+}
+
+/* STICKY NAVIGATION*/
+
+.sticky .navigation {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  z-index: 999;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 8rem;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.3);
+}
+
+.sticky .hero-section-main {
+  margin-top: 9.6rem;
 }
 
 /* MENU NAV */

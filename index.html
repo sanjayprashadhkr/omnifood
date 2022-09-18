@@ -22,16 +22,21 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script defer src="./JS/script.js"></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
   </head>
   <body>
     <header class="navigation">
       <a href=""><img src="./img/omnifood-logo.png" class="omni-image" /></a>
       <nav class="main-nav">
-        <a href="" class="side-btn">How it works</a>
-        <a href="" class="side-btn">Meals</a>
-        <a href="" class="side-btn">Testimonials</a>
-        <a href="" class="side-btn">Pricing</a>
-        <a href="" class="side-btn btn-price">Try for free</a>
+        <a href="#howitworks" class="side-btn">How it works</a>
+        <a href="#meals" class="side-btn">Meals</a>
+        <a href="#testimonial" class="side-btn">Testimonials</a>
+        <a href="#pricing" class="side-btn">Pricing</a>
+        <a href="#cta" class="side-btn btn-price">Try for free</a>
       </nav>
       <button class="btn-mobile-nav">
         <ion-icon name="menu-outline" class="icon-mobile-nav"></ion-icon>
@@ -50,10 +55,10 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs.
             </p>
-            <a href="#" class="btn btn--full btn-margin-sm"
+            <a href="#pricing" class="btn btn--full btn-margin-sm"
               >Start eating well</a
             >
-            <a href="#" class="btn btn--outline btn-hero-right"
+            <a href="#howitworks" class="btn btn--outline btn-hero-right"
               >Learn more&darr;</a
             >
             <div class="delivered-meals">
@@ -87,10 +92,10 @@
           <img src="./img/logos/business-insider.png" />
           <img src="./img/logos/the-new-york-times.png" />
           <img src="./img/logos/forbes.png" />
-          <img src="./img/logos/usa-today.png" />
+          <img src="../img/logos/usa-today.png" />
         </div>
       </section>
-      <section class="section-how">
+      <section class="section-how" id="howitworks">
         <div class="container">
           <span class="sub-heading">How it works</span>
           <h2 class="secondary-heading">
@@ -143,7 +148,7 @@
           </div>
         </div>
       </section>
-      <section class="meals-section">
+      <section class="meals-section" id="meals">
         <div class="container">
           <p class="sub-heading center-text display-block">MEALS</p>
           <h2 class="secondary-heading center-text">
@@ -277,7 +282,7 @@
           </div>
         </div>
       </section>
-      <section class="testimonial-section">
+      <section class="testimonial-section" id="testimonial">
         <div class="testimonial-boxes">
           <span class="sub-heading">TESTIMONIALS</span>
           <h2 class="secondary-heading testimonial-heading">
@@ -372,7 +377,7 @@
         </div>
       </section>
       <section>
-        <div class="container">
+        <div class="container" id="pricing">
           <div class="plan-boxes">
             <span class="sub-heading">PRICING</span>
             <h2 class="secondary-heading">
@@ -511,7 +516,7 @@
           </div>
         </div>
       </section>
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-textbox">
@@ -591,7 +596,7 @@
           </ul>
 
           <p class="copyright">
-            Copyright &copy; <span class="year">2022</span> by Omnifood, Inc.
+            Copyright &copy; <span class="year">2023</span> by Omnifood, Inc.
             All rights reserved.
           </p>
         </div>
